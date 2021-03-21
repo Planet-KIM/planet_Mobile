@@ -4,26 +4,26 @@
     <item
         android:id="@+id/bottom1"
         android:icon="@color/colorPlanetGray"
-        android:title="화면 1" />
+        android:title="Page1" />
 
     <item
         android:id="@+id/bottom2"
-        android:icon="@color/colorPlanetBlue"
-        android:title="화면 2"/>
+        android:icon="@drawable/planetcat_logo"
+        android:title="Page2"/>
 
     <item
         android:id="@+id/bottom3"
         android:icon="@color/colorPlanetRed"
-        android:title="화면 3"/>
+        android:title="Page3"/>
 
     <item
         android:id="@+id/bottom4"
         android:icon="@color/colorPlanetBlue"
-        android:title="화면 4"/>
+        android:title="Page4"/>
 
     <item
         android:id="@+id/bottom5"
         android:icon="@color/colorPlanetRed"
-        android:title="화면 5"/>
+        android:title="Page5"/>
 
 </menu>

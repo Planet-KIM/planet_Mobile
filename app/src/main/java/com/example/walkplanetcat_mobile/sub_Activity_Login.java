@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.walkplanetcat_mobile.APIS.UserHandle;
 import com.example.walkplanetcat_mobile.MODELS.Login;
+import com.example.walkplanetcat_mobile.MainActivity;
+import com.example.walkplanetcat_mobile.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -26,7 +28,10 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class sub_Activity_Login extends AppCompatActivity {
 
+    // walkplanetcat의 호스트주소입니다.
     private final String LoginUrl = "https://walkplanetcat.com";
+
+    // 생성자를 지정할 수 있게 해주어야합니다.
     private UserHandle userHandle;
     public EditText idText;
     public EditText passwordText;
