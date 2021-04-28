@@ -12,8 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.walkplanetcat_mobile.APIS.UserHandle;
 import com.example.walkplanetcat_mobile.MODELS.Login;
-import com.example.walkplanetcat_mobile.MainActivity;
-import com.example.walkplanetcat_mobile.R;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -69,6 +68,7 @@ public class sub_Activity_Login extends AppCompatActivity {
     }
 
 
+    // User Sign-In Process Function.
     public void signIn(View view) {
         // EditText의 값을 받와야합니다.
         // 텍스트에서 공백(해결) and 특수문자(미해결) 제거
