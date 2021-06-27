@@ -1,11 +1,12 @@
 # WALK PLANET CAT Mobile Project
 
+
 ## Development Enviroment
-- 1). Develop Tool :
+- 1). Develop Tool
   - Vim, python3.6.8, Pycharm, Android Studio
-- 2). O S : 
+- 2). OS
   - Window 10, Linux 20.04 
-- 3). Modules :
+- 3). Modules
   - appcompat:appcompat:1.2.0
   - material:material:1.2.1
   - retrofit2:retrofit:2.9.0
@@ -18,4 +19,9 @@
 - 1). Login Process (Used in Retrofit2)
 
 - 2). Many Fragments design(Now developing) / (Used in material)
- 
+
+
+## Issues
+- break fragment bottom images
+- return type do not ready(json handler)
+- 
